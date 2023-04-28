@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Abandonware</title>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src = "jquery.js" type="text/javascript"></script>
+    <script src = "bootstrap.js" type="text/javascript"></script>
+    <script src = "jquery-ui/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Bootstrap linkleri --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- fontawesome iconları -->
+    <script src="https://kit.fontawesome.com/fdfbd46b0d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="butun-sayfa">
+    <a href="javascript:void(0);" id="backToTop" class="back-to-top">
+        <i class="arrow"></i><i class="arrow"></i>
+    </a>
+
+    <nav class="navbar navbar-expand-lg  ustkisim ">
+       <div class="container">
+           <div class="color-top flex-xl-shrink-0 offset-0 ">My Abandonware - Download Old Video Games </div> 
+            <div class="offset-xl-5 flex-xl-shrink-0 offset-lg-3 offset-md-4  offset-0 mb-1">
+                <button class="random-game" 
+                type="button" 
+                >RANDOM GAME</button>
+            </div> 
+           <button class="navbar-toggler" 
+           type="button" 
+           data-bs-toggle="collapse" 
+           data-bs-target="#navbar-right"
+           style="border-color: #bf8e40;">
+            <img src="icons/collapse2.png" style="width: 24px; ">
+            </button>
+            
+            <div class=" collapse navbar-collapse" id="navbar-right">
+                
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a href="" class="sag-kisim ">Favorites</a>
+                    </li>
+                    <li>
+                        <a href="" class="sag-kisim ">Help</a>
+                    </li>
+                    <li>
+                        <a href="" class="sag-kisim ">Contribute</a>
+                    </li>
+                    <li>
+                        <a href="" class="sag-kisim ">Register</a>
+                    </li>
+                    <li>
+                        <a href="" class="sag-kisim ">Login</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="container ust-orta-container">
+
+        <div class="row ust-orta-kisim m-0 p-0">
+            <img  class="col-3 col-xl-2 d-none d-lg-block img-fluid " style=" max-height: 80px; max-width: 200px;  margin-top: 100px; margin-left: 50px;" src="icons/Screenshot_1.png">
+            <img class="col col-md-6 col-lg-5 col-xl-6 img-fluid logo" id="uslogo" style=" max-width: 70%; max-height:250px;" src="icons/logo-playing-rpg.png">
+            <form class="col-2 col-md-4 col-lg-2 col-xl-2 search " >
+                <input style="width: 100%;" placeholder="Game Search ..."> <br>
+                <a href="" class="search2">Advanced Search</a>
+            </form>
+        </div>
+
+        <div class="row alt-row ">
+            <div class="col p-0"> <div class="browse-box b-b1"> Browse By... </div> </div>
+            <div class="col p-0"> <div class="browse-box"> NAME </div> </div>
+            <div class="col p-0"> <div class="browse-box"> YEAR </div> </div>
+            <div class="col p-0"> <div class="browse-box"> PLATFORM </div> </div>
+            <div class="col p-0"> <div class="browse-box"> GENRE </div> </div>
+            <div class="col p-0 d-none d-md-block"> <div class="browse-box"> THEME </div> </div>
+            <div class="col p-0 d-none d-md-block"> <div class="browse-box"> PUBLISHER</div> </div>
+            <div class="col p-0 d-none d-md-block"> <div class="browse-box"> DEVELOPER</div> </div>
+        </div>
+    </div>
+
+    <div class="container all-of-the-content">
+        <div class="row h-100">
+            <div class="col-12 col-lg-9 bg-white">
+                <div class="container">My Abandonware</div>
+                <div class="container p-5 text-center ">
+                <h2 class=" h2">DOWNLOAD ABANDONWARE GAMES, <br><span>FROM 1978 TO 2011</span></h2> </div>
+                <div class="ayrac"></div>
+                <div class="container"> 
+                    <p class="first-info" style="margin-top: 20px;">
+                        Get ready for a deep dive into PC and console retrogaming, more than 23600 games are available and waiting to be played again. Discover rare 80s games and immerse yourself into classics from the 90s and 00s. Get your dose of nostalgia and old school gaming right now!
+                    </p>
+                    <p class="first-info">
+                        On My abandonware you can download all the old video games from 1978 to 2011 for free! You can play Pacman, Arkanoid, Tetris, Galaxian, Alter Ego, or Blackthorne, Civilization, Sim City, Prince of Persia, Xenon 2, King's quest, Ultima, Kyrandia, The Incredible Machine, Another World, Test Drive, Flashback, Lemmings!
+                    </p>
+                </div>
+                <div class="ayrac"></div>
+                <h3 style="margin-top:20px; margin-left: 3%;"><b>Get Prepared to Face Voldemort</b></h3>
+                <p style="margin-left: 3%;">More spells to cast in the next 3 games of the series, with detailed instructions to make them work in recent Windows versions!</p>
+            
+                <div class="row gamerow gap-2 m-2">
+                    <div class="col card p-0 ">
+
+                        <div class="card-header">
+                            <span class="inside-description"><b>HARRY POTTER: QUIDDITCH WORLD CUP </b></span> <br>
+                        </div>
+                        <img class="card-img card-relative"  src="icons/game 1.png">
+                        <button class="inside-button">
+                            <b>SPORTS SIMULATOR</b>
+                        </button>
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN</span> 
+                            <span class="inside-year">2003</span>
+                        </div>
+                    </div>
+                    <div class="col card p-0 ">
+                        <div class="card-header">
+                            <span class="inside-description"><b>HARRY POTTER: ORDER OF THE PHOENIX</b></span> <br>
+                        </div>
+
+                        <img class="card-img card-relative"  src="icons/game 2.png">
+                        <button class="inside-button">
+                            <b>D'S ARMY DRAFT EVENT</b>
+                        </button>
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN , MAC</span> 
+                            <span class="inside-year">2007</span>
+                        </div>
+                    </div>
+
+                    <div class="col card p-0 ">
+                        <div class="card-header">
+                            <span class="inside-description"><b>HARRY POTTER: HALF BLOOD PRINCE</b></span> <br>
+                        </div>
+                        <img class="card-img card-relative"  src="icons/game 3.png">
+                        <button class="inside-button">
+                            <b>DUELING CLUB LADDER</b>
+                        </button>
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN</span> 
+                            <span class="inside-year">2009</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br>
+                <p class="titles"><b>Trending games</b></p>
+                
+                <div class="row gamerow gap-2 m-2">
+                    <div class="col card p-0 ">
+                        <div class="card-header">
+                            <span class="inside-description"><b>THE DAEDALUS ENCOUNTER </b></span> <br>
+                        </div>
+
+                        <img class="card-img  card-relative"  src="icons/game 4.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN 3.x, 3DO</span> 
+                            <span class="inside-year">1995</span>
+                        </div>
+                    </div>
+
+                    <div class="col card p-0 ">
+                        <div class="card-header">
+                            <span class="inside-description"><b>COOL WORLD</b></span> <br>
+                        </div>
+
+                        <img class="card-img card-relative"  src="icons/game 5.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">DOS, C64 <a  type="button" onclick="showToastMessage('DOS, C64, AMIGA, ATARI ST')" class="morelink"> more...</a></span> 
+                            <span class="inside-year">1992</span>
+                        </div>
+                    </div>
+
+                    <div class="col card p-0 ">
+                        <div class="card-header">
+                            <span class="inside-description"><b>GNOME RANGER</b></span> <br>
+                        </div>
+                        <img class="card-img card-relative"  src="icons/game 6.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">DOS, C64 <a type="button" onclick="showToastMessage('DOS, C64, AMIGA, ZX SPECTRUM, AMSTRAD CPC, ATARI 8-BIT')" class="morelink"> more...</a></span> 
+                            <span class="inside-year">1987</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br>
+
+                <div class="row gamerow gap-2 m-2">
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>LANCELOT </b></span> <br>
+                        </div>
+
+                        <img class="card-img card-relative"  src="icons/game 7.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">DOS, MAC <a type="button" onclick="showToastMessage( 'DOS, MAC, C64, AMIGA, ZX SPECTRUM, AMSTRAD CPC, ATARI 8-BIT, ATARI ST, BBC MICRO')" class="morelink"> more...</a></span> 
+                            <span class="inside-year" >1998</span>
+                        </div>
+                    </div>
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>TRAILER PARK TYCOON</b></span> <br>
+                        </div>
+
+                        <img class="card-img card-relative"  src="icons/game 8.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN</span> 
+                            <span class="inside-year">2002</span>
+                        </div>
+                    </div>
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>MUMMY MAZE DELUXE</b></span> <br>
+                        </div>
+                        <img class="card-img card-relative"  src="icons/game 9.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN, MAC</span> 
+                            <span class="inside-year">2002</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br>
+
+                <div class="row gamerow gap-2 m-2">
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>G-LOC: AIR BATTLE </b></span> <br>
+                        </div>
+                        <img class="card-img card-relative"  src="icons/game 10.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">GENESIS, C64 <a type="button" onclick="showToastMessage('GENESIS, C64, MASTER SYSTEM, GAME GEAR, AMIGA, ZX SPECTRUM, AMSTRAD CPC, ATARI ST')" class="morelink">more...</a></span> 
+                            <span class="inside-year">1991</span>
+                        </div>
+                    </div>
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>BIG RED RACING</b></span> <br>
+                        </div>
+                        <img class="card-img  card-relative"  src="icons/game 11.png">
+                        <div class="card-footer">
+                            <span class="inside-platform">DOS</span> 
+                            <span class="inside-year">1995</span>
+                        </div>
+                    </div>
+                    <div class="col card p-0 mb-4">
+                        <div class="card-header">
+                            <span class="inside-description"><b>HARRY POTTER: ORDER OF PHOENIX</b></span> <br>
+                        </div>
+                        <img class="card-img  card-relative"  src="icons/game 2.png">
+                        
+                        <div class="card-footer">
+                            <span class="inside-platform">WIN, MAC</span> 
+                            <span class="inside-year">2007</span>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br><br><br><br><br>
+                <div class="ayrac"></div>
+                <br>
+                <div class="container last-info">
+                    <h3>Lots of Data</h3>
+                    <p>For each game, we offer all the information you are interested to know: publication year, publisher, developer, size of the game, language, review of the game, instructions to play, the game manual and, of course, the game archive that you can download for free!</p>
+                    <h3>Screenies!</h3>
+                    <p>A lot of our games have screenshots, allowing you to discover the game, or confirm it is the right game you are looking for. Many thanks to <a href="">MobyGames</a> for the most of the screenshots.</p>
+                    <h3>No Registration Required</h3>
+                    <p>Download everything you want without registration. If you want to create yourself an account, it takes less than a minute. No confirmation mail, no spam, you will be instantly logged on.</p>
+                    <h3>Advanced Browsing</h3>
+                    <p>Can't remember the name of that old action game? Only remember the name of the developer or publisher? We have different browsing methods for you, you can even search for the company name of the video game. You can also use the <a href="">advanced search feature</a> to filter games precisely.</p>
+                    <h3>Comment games</h3>
+                    <p>Add comments on the game page without registration. Leave a review, share a memory or just a thank for the game. We do not provide game support, but leave a comment if a game has a problem (wrong game, corrupted files, etc.) and we'll check it as soon as we can.</p>
+                    <h3>Rate games</h3>
+                    <p>Don't forget to rate the game you download, just click on the small hearts at the top of the page to rate. You don't have to create an account to rate a game.</p>
+                </div>
+                <br>
+                <div class="ayrac"></div>
+            </div>
+                
+            <div class="col-3 bg-light pt-4 d-none d-lg-block ">
+                <div class="row first-info-right">
+                <span class="before-star"> 
+                <b>NEW FEATURE:</b>
+                save games as 
+                <a href=""> favorites,</a> 
+                show favs from link in the top bar.
+                When not logged in, favs are saved on your computer but can be lost, 
+                <a href=""> register here</a> 
+                to keep 'em safe.
+                </span>
+                <button class="random-game" style="min-width: 10%; margin-left: 30%; max-width: 40%;">ROGER THAT!</button>
+
+                </div>
+
+ <br><br><br>
+
+                <!-- collapsed follow us opener idk  -->
+                <button class="random-game mb-3" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#follow-us" 
+                aria-expanded="false" aria-controls="follow-us">
+                    FOLLOW US
+                </button>
+                <br>
+
+                <div class="collapse" id="follow-us">
+                    <div class="row m-0 facebook">
+                        <div class="col-2">
+                        <img src="icons/facebook.svg" style="width: 100%;"> 
+                        </div>
+                        <div class="col">
+                        <a href="" >Facebook</a>
+                        </div>
+                    </div>
+                    
+                    <div class="row m-0 twitter">
+                        <div class="col-2">
+                            <img src="icons/twitter.svg" style="width: 100%;"> 
+                        </div>
+                        <div class="col">
+                            <a href="">Twitter</a>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="row m-0 youtube">
+                        <div class="col-2">
+                            <img src="icons/youtube.svg" style="width: 100%; "> 
+                        </div>
+                        <div class="col">
+                            <a href="" >Youtube</a>
+                        </div>
+                    
+                    </div>
+
+                    
+                    <div class="row m-0 linkedIn">
+                        <div class="col-2">
+                            <img src="icons/linkedin.svg" style="width: 100%; "> 
+                        </div>
+                        <div class="col">
+                            <a href="" >LinkedIn</a>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="row m-0 discord">
+                        <div class="col-2">
+                            <img src="icons/discord.svg" style="width: 100%; "> 
+                        </div>
+                        <div class="col">
+                            <a href="" >Discord</a>
+                        </div>
+                    
+                    </div>
+
+
+                </div>
+
+<br>
+                <div class="ayrac"></div>
+<br>
+                <div class="container" id="email-submit">
+                    <div class="card">
+                        <div class="card-header newsletter">Monthly Newsletter</div>
+                        <p style="margin: 0; margin-left: 10px; text-decoration: underline;">New games & features every month</p>
+                        <div class="card-body pt-1">
+                                <form>
+                                <input type="email" id="email" class="form-control" placeholder="Enter Your Email Here" required>
+                                <input type="submit" class="random-game" value="Submit">
+                                </form>
+                        </div>
+                        
+                    </div>
+                </div>
+<br>
+                <div class="ayrac"></div>
+<br><br>
+                <div class="container">
+                    <div class="top-downloads">
+                        TOP DOWNLOADS
+                    </div>
+                    <div class="row mt-1 top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Sid Meier's Civilization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Need for Speed II: SE</span>
+                        </div>
+                    </div>
+                    
+                    <div class="row top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Oregon Trail Deluxe</span>
+                        </div>
+                    </div>
+                    
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>The Incredible Machine</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Mario Teaches Typing</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>The house of the dead</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>prince of persia</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>simant</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>yu-gi-oh!: power of chaos - yugi</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Rogue</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Mechwarrior 4: Mercenaries</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>The incredible machine 2</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>the simpsons: hit & run</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>dune II: building of a dynasty</span>
+                        </div>
+                    </div>
+                    <div class="collapse row top-game-row align-content-center" id="top-games">
+                        <div class="col-2">
+                            <img src="icons/latest releases.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>lemmings</span>
+                        </div>
+                    </div>
+
+                    <button class="random-game mb-3 mt-1" id="show-more" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#top-games" 
+                    aria-expanded="false" aria-controls="top-games">Show More</button>
+ 
+                    
+                </div>
+<br>
+                <div class="support-us">
+                    <img src="icons/support-us.png" style="width: 100%;">
+                </div>
+<br><br>
+                <div class="container">
+                    <div class="top-downloads">
+                        LATEST RELEASES
+                    </div>
+
+                    <div class="row mt-1 top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>Codebreaker</span>
+                        </div>
+                    </div>
+
+                    <div class="row  top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>club football: the manager</span>
+                        </div>
+                    </div>
+
+                    <div class="row  top-game-row align-content-center">
+                        <div class="col-2">
+                            <img src="icons/before.png" style="width: 100%;" >
+                        </div>
+                        <div class="col">
+                            <span>bridge 8.0</span>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" tabindex="-1" id="exampleModal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Recently Released Abandonware Games</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">ANDROMEDAS ERBE</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">LONDON</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">INTERNATIONAL SENSIBLE SOCCER</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">SENSIBLE SOCCER: EUROPEAN CHAMPIONS</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">WAR ON TERROR</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">LAST OF THE FREE</span>
+                                    </div>
+                                </div>
+
+                                <div class="row  align-content-center">
+                                    <div class="col-2">
+                                        <img src="icons/latest releases.png" style="width: 60%;" >
+                                    </div>
+                                    <div class="col">
+                                        <span class="latest-releases">LABRYNTH OF ZEUX</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <button type="button" class="random-game" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 5px;">
+                        Show More Latest Releases
+                      </button>
+
+                    
+
+                </div>
+<br><br>
+                
+                <div class="container">
+                    <div class="top-downloads" style="font-size: 22px;">
+                        SCREENSHOTS NEEDED
+                    </div>
+                    <br>
+                    <div id="screenshots-needed" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#screenshots-needed" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#screenshots-needed" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#screenshots-needed" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <span class="screenshot-text" >WORLD SERIES MAJOR LEAGUE</span>
+                            <img src="http://www.intvfunhouse.com/mattel/manual/wsbb-000.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <span class="screenshot-text" >SPACE RANGERS 2: REBOOT </span>
+                            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/717Z7wb8RYL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <span class="screenshot-text" >BAKATONO-SAMA MAHJONG MAN'YUKI </span>
+                            <img src="icons/bakatono.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#screenshots-needed" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#screenshots-needed" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                      </div>
+
+                </div>
+<br>                
+
+
+
+            </div>
+        </div>
+
+            
+    </div>
+
+    <div class="footer">
+        <div class="container mt-lg-5">
+            <div class="row">
+                <div class="col-2">
+                    <img class="mt-md-2" src="icons/logo-playing-rpg.png" style="width: 100%;">
+                </div>
+                <div class="col-8 alt-kisim">
+                        <span>Ad Consent</span>
+                        <span>Terms</span>
+                        <span>About</span>
+                        <span>Contact</span>
+                        <span class="d-none d-md-block">FAQ</span>
+                        <span class="d-none d-md-block">Useful links</span>
+                        <span class="d-none d-xl-block">Contribute</span>
+                        <span class="d-none d-xl-block">Taking Screenshots</span>
+                        <span class="d-none d-xl-block">How to Play</span>
+                </div>
+                <div class="col-2">
+                    <img class="mt-md-3 mt-lg-2 mt-xl-0"  src="icons/utopiaweb.png" style="width: 100%; vertical-align: middle;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col alt-kisim">
+                    <span class="d-block d-md-none">FAQ</span>
+                    <span class="d-block d-md-none">Useful links</span>
+                    <span class="d-block d-xl-none">Contribute</span>
+                    <span class="d-block d-xl-none">Taking Screenshots</span>
+                    <span class="d-block d-xl-none">How to Play</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="toast" id="toastMessage" role="alert" aria-live="assertive" aria-atomic="true" style="position: fixed; bottom: 20px; left: 20px;">
+        <div class="toast-header">
+            <strong>More Platforms</strong>
+            
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" style="position: absolute; right: 20px;"></button>
+          </div>
+        <div class="toast-body" id="toast-body">''</div> 
+    </div>
+
+
+</div>
+</body>
+
+</html>
